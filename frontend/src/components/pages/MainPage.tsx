@@ -44,7 +44,7 @@ const MainPage: React.FC<MainPageProps> = ({
   return (
     <div className="min-h-screen bg-amber-50 flex flex-col items-center justify-center">
       <h1 className="text-3xl font-bold text-purple-600 text-center mb-6">
-        Welcome, {data?.hello || name}!
+        {data?.hello || name}!
       </h1>
       <button className="btn btn-primary" onClick={onComplete}>
         Start Cost Estimation
