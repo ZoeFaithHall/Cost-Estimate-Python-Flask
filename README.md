@@ -37,11 +37,20 @@ root/
 │   ├── requirements.txt # Python dependencies
 │   ├── templates/     # HTML templates (if needed)
 │   ├── static/        # Static assets (if needed)
+│   ├── venv/          # Virtual Environment
 ├── frontend/          # React frontend
 │   ├── src/           # React source code
-│   ├── public/        # Public assets
+│   ├── dist/          # Vite build process production ready files
 │   ├── tailwind.config.js # Tailwind CSS configuration
 │   ├── tsconfig.json  # TypeScript configuration
+│   ├── postcss.config.js # PostCSS, used by Tailwind CSS
+│   ├── vite.config.ts # Vite, build and dev settings
+│   ├── components # Reusable Atomic UI components, further divided into atoms, molecules, and organisms.
+│   ├── services # API services or external integrations (e.g., apolloClient.ts for GraphQL queries).
+│   ├── index.css # Main CSS file for global styles
+│   ├── App.tsx # Main React component that defines the app structure and routing.
+│   ├── main.tsx # Entry point - Renders the root component (App.tsx)
+
 
 ---
 ```
