@@ -1,4 +1,5 @@
-# React + TypeScript + Flask Template
+# Cost Estimate Tool and 
+## React + TypeScript + Flask Template
 
 ## Overview
 
