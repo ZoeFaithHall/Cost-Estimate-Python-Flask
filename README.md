@@ -1,4 +1,4 @@
-# Cost Estimate Tool and 
+# Cost Estimate Tool Built With 
 ## React + TypeScript + Flask Template
 
 ## Overview
